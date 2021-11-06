@@ -5,6 +5,7 @@ if camOrTest == 'Y'
     disp("Get Ready! A snapshot from the IP Camera shall be captured in a few seconds...");
     pause(5);
     img = snapshot(cam);
+    img = flip(img,2);
     imshow(img);
     pause(5);
 else
@@ -72,11 +73,17 @@ for i = 1:n
     distarray(i) = sum(abs(T(i,:)-imgpca));
 end
 [result,indx]=min(distarray);
-if result > threshold
-    disp('No face has been matched');
+disp(files(indx).name);
+if camOrTest == 'N' 
+    if result > threshold
+        disp('No face has been matched');
+    else
+        recogFile = split(files(indx).name, '_');
+        disp(strcat(recogFile(1), " is recognised!"));
+    end
 else
-    recogFile = split(files(indx).name, '_');
-    disp(strcat(recogFile(1), " is recognised!"));
+     recogFile = split(files(indx).name, '_');
+     disp(strcat(recogFile(1), " is recognised!"));
 end
 if camOrTest == 'Y'
     clear cam;
