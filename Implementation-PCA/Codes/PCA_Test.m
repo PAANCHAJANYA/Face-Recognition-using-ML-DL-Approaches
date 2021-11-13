@@ -74,16 +74,11 @@ for i = 1:n
 end
 [result,indx]=min(distarray);
 disp(files(indx).name);
-if camOrTest == 'N' 
-    if result > threshold
-        disp('No face has been matched');
-    else
-        recogFile = split(files(indx).name, '_');
-        disp(strcat(recogFile(1), " is recognised!"));
-    end
+if result > threshold
+    disp('No face has been matched');
 else
-     recogFile = split(files(indx).name, '_');
-     disp(strcat(recogFile(1), " is recognised!"));
+    recogFile = split(files(indx).name, '_');
+    disp(strcat(recogFile(1), " is recognised!"));
 end
 if camOrTest == 'Y'
     clear cam;

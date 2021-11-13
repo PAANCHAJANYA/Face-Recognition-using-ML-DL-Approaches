@@ -1,5 +1,7 @@
 trainDirectory = uigetdir(title='Select the folder whose content needs to be trained');
 trainDirectory = strcat(trainDirectory, "\\");
+testDirectory = uigetdir(title='Select the folder whose contents are kept for testing');
+testDirectory = strcat(testDirectory, "\\");
 imageExt = input('Enter the Image type (JPG/JPEG/PNG/GIF/PGM):', 's');
 files = dir(fullfile(trainDirectory, strcat('*', imageExt)));
 n = length(files);
@@ -160,4 +162,8 @@ else
     end
 end
 clear max;
-threshold = 0.8*(max(minEdList));
+thresholdPossibilities = zeros(1, 15);
+for thresholdItr=1:15
+    thresholdPossibilities(1, thresholdItr) = (0.75+(thresholdItr/100))*(max(minEdList));
+end
+run("PCA_AdaptiveThreshold_Test_Accuracy.m");
