@@ -1,10 +1,8 @@
 FriendsDB:
-S01 - 100.000000
-S02 - 95.833333
-S03 - 100.000000
 
 Average Accuracy = 98.61111
------------------
+Adaptive Threshold Average Accuracy = 100.000000
+---------------------------------------------------
 NIT Rourkela - 1:
 S01 - 100.000000
 S02 - 100.000000
@@ -18,7 +16,8 @@ S09 - 100.000000
 S10 - 50.000000
 
 Average Accuracy = 91.78218
------------------
+Adaptive Threshold Average Accuracy: 94.444444
+---------------------------------------------------
 NIT Rourkela - 2:
 S01 - 
 	HIGH WITH:- 95.049505
@@ -351,7 +350,8 @@ S47 -
 	MEDIUM WITHOUT:- 99.009901
 
 Average Accuracy = 82.08528
------------------
+Adaptive Threshold Average Accuracy = 85.756157
+---------------------------------------------------
 Yale - A:
 S01 - 83.333333
 S02 - 66.666667
@@ -370,7 +370,8 @@ S14 - 83.333333
 S15 - 66.666667
 
 Average Accuracy: 71.77778
------------------
+Adaptive Threshold Average Accuracy = 73.033708
+---------------------------------------------------
 Yale - B:
 S01 - 38.356164
 S02 - 63.013699
@@ -402,3 +403,4 @@ S27 - 49.315068
 S28 - 29.109589
 
 Average accuracy: 39.75049
+Adaptive Threshold Average Accuracy: 43.248532
