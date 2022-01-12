@@ -3,14 +3,15 @@ trainDirectory = strcat(trainDirectory, "\\");
 testDirectory = uigetdir(title='Select the folder whose contents are kept for testing');
 testDirectory = strcat(testDirectory, "\\");
 imageExt = input('Enter the Image type (JPG/JPEG/PNG/GIF/PGM):', 's');
-files = dir(fullfile(trainDirectory, strcat('*', imageExt)));
-n = length(files);
 cropped = input('Are the images to be trained already cropped to the face (Y/N): ', 's');
 L = input('Enter the number of dominant eigen Values to be considered (max:-9000): ');
+files = dir(fullfile(trainDirectory, strcat('*', imageExt)));
+n = length(files);
 M = 100; N = 90;
 X = zeros(n,(M*N));
 T = zeros(n,L);
 for count = 1:n
+    disp(count);
     filePath = strcat(trainDirectory, files(count).name);
     img = imread(filePath);
     info = imfinfo(filePath);
@@ -162,6 +163,7 @@ else
     end
 end
 clear max;
+disp("Hi");
 thresholdPossibilities = zeros(1, 15);
 for thresholdItr=1:15
     thresholdPossibilities(1, thresholdItr) = (0.75+(thresholdItr/100))*(max(minEdList));
