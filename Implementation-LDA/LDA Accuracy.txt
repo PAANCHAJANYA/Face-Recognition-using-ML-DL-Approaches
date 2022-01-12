@@ -1,0 +1,59 @@
+2D Face Set:
+
+Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)
+---------------------------------------------------
+American Face Dataset:
+
+Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)
+---------------------------------------------------
+FriendsDB:
+
+Average Accuracy = 75.000000
+Adaptive Threshold Average Accuracy = 84.722222
+---------------------------------------------------
+FriendsDB_FacialHair:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 99.027778
+---------------------------------------------------
+MUCT:
+
+Average Accuracy = Cannot run in laptop (requires 120.1 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 120.1 GB RAM)
+---------------------------------------------------
+NIT Rourkela - 1:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 56.944444
+---------------------------------------------------
+NIT Rourkela - 2:
+
+Average Accuracy = Cannot run in laptop (requires 28.4 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 28.4 GB RAM)
+---------------------------------------------------
+ORL:
+
+Average Accuracy = Cannot run in laptop (requires 24.1 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 24.1 GB RAM)
+---------------------------------------------------
+Pain Dataset:
+
+Average Accuracy = Cannot run in laptop (requires 12.7 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 12.7 GB RAM)
+---------------------------------------------------
+Pain_Cropped:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 66.666667
+---------------------------------------------------
+Yale - A:
+
+Average Accuracy = Cannot run in laptop (requires 9.1 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 9.1 GB RAM)
+---------------------------------------------------
+Yale - B:
+
+Average accuracy = Cannot run in laptop (requires 16.9 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 16.9 GB RAM)
