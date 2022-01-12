@@ -1,0 +1,59 @@
+2D Face Set:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+American Face Dataset:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+FriendsDB:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+FriendsDB_FacialHair:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+MUCT:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+NIT Rourkela - 1:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+NIT Rourkela - 2:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+ORL:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+Pain Dataset:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+Pain_Cropped:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+Yale - A:
+
+Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+Yale - B:
+
+Average accuracy = 
+Adaptive Threshold Average Accuracy = 
