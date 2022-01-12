@@ -1,9 +1,9 @@
 trainDirectory = uigetdir(title='Select the folder whose content needs to be trained');
 trainDirectory = strcat(trainDirectory, "\\");
 imageExt = input('Enter the Image type (JPG/JPEG/PNG/GIF/PGM):', 's');
+cropped = input('Are the images to be trained already cropped to the face (Y/N): ', 's');
 files = dir(fullfile(trainDirectory, strcat('*', imageExt)));
 n = length(files);
-cropped = input('Are the images to be trained already cropped to the face (Y/N): ', 's');
 L = input('Enter the number of dominant eigen Values to be considered (max:-9000): ');
 M = 100; N = 90;
 X = zeros(n,(M*N));

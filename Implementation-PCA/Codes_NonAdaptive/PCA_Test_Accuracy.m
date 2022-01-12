@@ -69,7 +69,7 @@ for count=1:nTest
     else
         recogFile = split(files(indx).name, '_');
         actualFile = split(testFiles(count).name, '_');
-        if(recogFile{1}==actualFile{1})
+        if(strcmp(recogFile{1},actualFile{1})==1)
             correct=correct+1;
         end
     end

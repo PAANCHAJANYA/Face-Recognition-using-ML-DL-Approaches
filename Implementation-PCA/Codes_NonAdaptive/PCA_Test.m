@@ -1,4 +1,3 @@
-clc;
 camOrTest = input('Do you want an IP Camera to be initiated to test the image (Y/N):', 's');
 if camOrTest == 'Y'
     ip = input('Enter the IP Address of the IP Camera Server:', 's');
@@ -48,8 +47,6 @@ if camOrTest == 'Y'
         if result > threshold
             imgo = insertObjectAnnotation(originalImg, "rectangle", bboxes, 'No face has been matched', 'FontSize',30);
             imshow(imgo);
-            totalTime = totalTime + toc(tstart);
-            continue;
         else
             recogFile = split(files(indx).name, '_');
             imgo = insertObjectAnnotation(originalImg, "rectangle", bboxes, strcat(recogFile(1),' has been identified'), 'FontSize',30);
@@ -58,7 +55,6 @@ if camOrTest == 'Y'
         totalTime = totalTime + toc(tstart);
     end
     clear cam;
-    pause(5);
 else
     [filename,pathname] = uigetfile('*.*','Select the image to be recognised');
     filewithpath = strcat(pathname,filename);
@@ -116,8 +112,6 @@ else
         img = rgb2gray(img);
     end
     img = imresize(img,[M,N]);
-    imshow(img);
-    pause(5);
     img = double(reshape(img,[1,M*N]));
     imgpca = (img-m)*Ppca;
     distarray = zeros(n,1);
