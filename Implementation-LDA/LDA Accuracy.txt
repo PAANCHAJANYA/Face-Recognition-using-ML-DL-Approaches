@@ -1,12 +1,12 @@
 2D Face Set:
 
-Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)
-Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)
+Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)()
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)(75.833333+93.636364)
 ---------------------------------------------------
 American Face Dataset:
 
 Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)
-Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)(89.166667+75.833333+87.500000+80.000000+85.000000+85.833333+78.333333+92.500000+86.666667+91.666667+85.833333+85.833333+83.750000)
 ---------------------------------------------------
 FriendsDB:
 
@@ -51,9 +51,9 @@ Adaptive Threshold Average Accuracy = 66.666667
 Yale - A:
 
 Average Accuracy = Cannot run in laptop (requires 9.1 GB RAM)
-Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 9.1 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 9.1 GB RAM)(70.422535+66.666667)
 ---------------------------------------------------
 Yale - B:
 
 Average accuracy = Cannot run in laptop (requires 16.9 GB RAM)
-Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 16.9 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 16.9 GB RAM)(30.936073+19.777397+43.321918)
