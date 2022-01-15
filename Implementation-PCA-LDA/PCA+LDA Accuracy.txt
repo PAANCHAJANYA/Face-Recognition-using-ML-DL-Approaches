@@ -11,12 +11,12 @@ Adaptive Threshold Average Accuracy =
 FriendsDB:
 
 Average Accuracy = 
-Adaptive Threshold Average Accuracy = 
+Adaptive Threshold Average Accuracy = 98.611111
 ---------------------------------------------------
 FriendsDB_FacialHair:
 
 Average Accuracy = 
-Adaptive Threshold Average Accuracy = 
+Adaptive Threshold Average Accuracy = 99.444444
 ---------------------------------------------------
 MUCT:
 
