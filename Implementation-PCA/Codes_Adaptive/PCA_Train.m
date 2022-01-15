@@ -11,7 +11,6 @@ M = 100; N = 90;
 X = zeros(n,(M*N));
 T = zeros(n,L);
 for count = 1:n
-    disp(count);
     filePath = strcat(trainDirectory, files(count).name);
     img = imread(filePath);
     info = imfinfo(filePath);
@@ -163,7 +162,6 @@ else
     end
 end
 clear max;
-disp("Hi");
 thresholdPossibilities = zeros(1, 15);
 for thresholdItr=1:15
     thresholdPossibilities(1, thresholdItr) = (0.75+(thresholdItr/100))*(max(minEdList));
