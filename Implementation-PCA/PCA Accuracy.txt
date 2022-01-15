@@ -30,7 +30,7 @@ Adaptive Threshold Average Accuracy = 96.527778
 ---------------------------------------------------
 NIT Rourkela - 2:
 
-Average Accuracy = 82.08528
+Average Accuracy = 82.085284
 Adaptive Threshold Average Accuracy = 85.756157
 ---------------------------------------------------
 ORL:
@@ -55,5 +55,5 @@ Adaptive Threshold Average Accuracy = 77.528090
 ---------------------------------------------------
 Yale - B:
 
-Average accuracy = 39.75049
-Adaptive Threshold Average Accuracy = 43.248532
+Average accuracy = 38.992172
+Adaptive Threshold Average Accuracy = 43.664384
