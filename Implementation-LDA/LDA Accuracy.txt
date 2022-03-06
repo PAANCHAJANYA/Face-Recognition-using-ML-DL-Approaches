@@ -1,12 +1,17 @@
 2D Face Set:
 
-Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)()
+Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)
 Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 13.9 GB RAM)(75.833333+93.636364)
 ---------------------------------------------------
 American Face Dataset:
 
 Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)
 Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 91.7 GB RAM)(89.166667+75.833333+87.500000+80.000000+85.000000+85.833333+78.333333+92.500000+86.666667+91.666667+85.833333+85.833333+83.750000)
+---------------------------------------------------
+Face-Images:
+
+Average Accuracy = Cannot run in laptop (requires 9.7 GB RAM)
+Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 9.7 GB RAM)
 ---------------------------------------------------
 FriendsDB:
 
@@ -15,7 +20,7 @@ Adaptive Threshold Average Accuracy = 84.722222
 ---------------------------------------------------
 FriendsDB_FacialHair:
 
-Average Accuracy = 
+Average Accuracy = 96.944444
 Adaptive Threshold Average Accuracy = 99.027778
 ---------------------------------------------------
 MUCT:
@@ -25,7 +30,7 @@ Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 120.1 GB RA
 ---------------------------------------------------
 NIT Rourkela - 1:
 
-Average Accuracy = 
+Average Accuracy = 47.222222
 Adaptive Threshold Average Accuracy = 56.944444
 ---------------------------------------------------
 NIT Rourkela - 2:
@@ -45,7 +50,7 @@ Adaptive Threshold Average Accuracy = Cannot run in laptop (requires 12.7 GB RAM
 ---------------------------------------------------
 Pain_Cropped:
 
-Average Accuracy = 
+Average Accuracy = 63.888889
 Adaptive Threshold Average Accuracy = 66.666667
 ---------------------------------------------------
 Yale - A:
