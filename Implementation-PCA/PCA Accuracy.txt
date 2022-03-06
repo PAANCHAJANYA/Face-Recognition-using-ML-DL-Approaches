@@ -8,6 +8,11 @@ American Face Dataset:
 Average Accuracy = 97.565789
 Adaptive Threshold Average Accuracy = 98.421053
 ---------------------------------------------------
+Face-Images:
+
+Average Accuracy = 95.312500
+Adaptive Threshold Average Accuracy = 95.312500
+---------------------------------------------------
 FriendsDB:
 
 Average Accuracy = 98.61111
@@ -16,7 +21,7 @@ Adaptive Threshold Average Accuracy = 100.000000
 FriendsDB_FacialHair:
 
 Average Accuracy = 98.888889
-Adaptive Threshold Average Accuracy = 99.722222
+Adaptive Threshold Average Accuracy = 99.222222
 ---------------------------------------------------
 MUCT:
 
