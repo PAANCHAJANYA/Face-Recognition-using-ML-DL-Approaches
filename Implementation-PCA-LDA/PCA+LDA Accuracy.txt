@@ -1,59 +1,51 @@
 2D Face Set:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 American Face Dataset:
 
-Average Accuracy = 
+Adaptive Threshold Average Accuracy = 
+---------------------------------------------------
+Face-Images
+
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 FriendsDB:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 98.611111
 ---------------------------------------------------
 FriendsDB_FacialHair:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 99.444444
 ---------------------------------------------------
 MUCT:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 NIT Rourkela - 1:
 
-Average Accuracy = 
-Adaptive Threshold Average Accuracy = 
+Adaptive Threshold Average Accuracy = 93.055556
 ---------------------------------------------------
 NIT Rourkela - 2:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 ORL:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 Pain Dataset:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 Pain_Cropped:
 
-Average Accuracy = 
-Adaptive Threshold Average Accuracy = 
+Adaptive Threshold Average Accuracy = 77.777778
 ---------------------------------------------------
 Yale - A:
 
-Average Accuracy = 
 Adaptive Threshold Average Accuracy = 
 ---------------------------------------------------
 Yale - B:
 
-Average accuracy = 
 Adaptive Threshold Average Accuracy = 
