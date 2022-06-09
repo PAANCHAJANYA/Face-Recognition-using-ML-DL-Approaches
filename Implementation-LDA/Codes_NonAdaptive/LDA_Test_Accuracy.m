@@ -65,8 +65,6 @@ for count=1:nTest
     end
     [result,indx]=min(distarray);
     if result > threshold
-        disp(result);
-        disp(threshold);
         continue;
     else
         recogFile = split(files(indx).name, '_');
