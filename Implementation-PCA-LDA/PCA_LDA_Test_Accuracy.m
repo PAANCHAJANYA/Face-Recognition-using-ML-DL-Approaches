@@ -45,9 +45,10 @@ for count=1:nTest
         end
     end
     if cropped == 'N'
-        faceDetector = vision.CascadeObjectDetector('ClassificationModel', 'FrontalFaceCART');
-        faceDetector.MergeThreshold = 4;
-        bboxes = faceDetector(img);
+        %faceDetector = vision.CascadeObjectDetector('ClassificationModel', 'FrontalFaceCART');
+        %faceDetector.MergeThreshold = 4;
+        %bboxes = faceDetector(img);
+        [bboxes, scores, landmarks] = mtcnn.detectFaces(img);
         if ~isempty(bboxes)
             if(size(bboxes, 1)>1)
                 max = bboxes(1, 3)*bboxes(1, 4);
