@@ -1,4 +1,4 @@
-trainDirectory = uigetdir(title='Select the folder whose content needs to be trained');
+    trainDirectory = uigetdir(title='Select the folder whose content needs to be trained');
 trainDirectory = strcat(trainDirectory, "\");
 cropped = input('Are the images to be trained already cropped to the face (Y/N): ', 's');
 imageExt = input('Enter the Image type (JPG/JPEG/PNG/GIF/PGM):', 's');
