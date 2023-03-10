@@ -1,0 +1,10 @@
+Face Recognition in Dark Environments
+Pose Invariance
+Illumination Invariance
+Potential for higher recognition accuracy because the features such as normal and curvature on faces are better described rather than a 2D image.
+Data acquisition
+Face point cloud reconstruction
+Facial recognition using 3D point cloud data
+ROI Confinement through Head Segmentation using K-Means Clustering
+Multi view Point Cloud Registration using ICP
+Outlier Detection using DBSCAN
